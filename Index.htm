@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ग्राहक सेवा केंद्र | बैंक ऑफ़ बड़ौदा - जलालपुर बारो</title>
+    <style>
+        :root {
+            --bob-orange: #f26522;
+            --bob-blue: #004a98;
+            --light-bg: #f8f9fa;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 4px solid var(--bob-orange);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-container img {
+            height: 50px;
+        }
+        .hero {
+            background: linear-gradient(135deg, var(--bob-orange), var(--bob-blue));
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .hero h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            color: var(--bob-blue);
+            border-bottom: 2px solid var(--bob-orange);
+            padding-bottom: 8px;
+            margin-top: 0;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .service-item {
+            background: #f1f5f9;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+            border-left: 4px solid var(--bob-orange);
+        }
+        .contact-info p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: var(--bob-blue);
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Bank_of_Baroda_Logo.svg" alt="Bank of Baroda Logo">
+        </div>
+        <div>
+            <strong style="color: var(--bob-blue);">BC SAKHI KENDRA</strong>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>बैंक ऑफ़ बड़ौदा ग्राहक सेवा केंद्र</h1>
+        <p>ग्राम - जलालपुर बारो, ज़िला - प्रतापगढ़ (उ.प्र.)</p>
+        <p><strong>संचालक:</strong> बीसी सखी दीपिका सिंह</p>
+    </section>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>उपलब्ध बैंकिंग सेवाएं</h2>
+            <div class="services-grid">
+                <div class="service-item">नया खाता खोलना</div>
+                <div class="service-item">आधार से पैसे निकालना (AEPS)</div>
+                <div class="service-item">पैसे जमा करना</div>
+                <div class="service-item">फंड ट्रांसफर (मनी ट्रांसफर)</div>
+                <div class="service-item">बैलेंस जांच व पासबुक प्रिंट</div>
+                <div class="service-item">PMJJBY / PMSBY बीमा</div>
+            </div>
+        </div>
+
+        <div class="card contact-info">
+            <h2>संपर्क एवं पता</h2>
+            <p><strong>स्थान:</strong> जलालपुर बारो, प्रतापगढ़, उत्तर प्रदेश</p>
+            <p><strong>संचालक का नाम:</strong> दीपिका सिंह (BC Sakhi)</p>
+            <p><strong>समय:</strong> सुबह 09:00 बजे से शाम 05:00 बजे तक</p>
+            <a href="https://wa.me/918318118673?text=नमस्ते%20दीपिका%20जी,%20मुझे%20ग्राहक%20सेवा%20केंद्र%20की%20जानकारी%20चाहिए।" class="btn-whatsapp" target="_blank">
+                WhatsApp पर संपर्क करें
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 ग्राहक सेवा केंद्र - जलालपुर बारो, प्रतापगढ़ | सर्वाधिकार सुरक्षित
+    </footer>
+
+</body>
+</html>
